@@ -1,0 +1,289 @@
+body {
+    background-color: rgb(244, 244, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+ }
+
+/*Style of the drodown - ستايل المنيو*/ 
+ .dropdown {
+  position: relative;
+  display: inline-block;
+ }
+
+
+ .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+ }
+
+ .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+ }
+
+ .dropdown:hover .dropdown-content {
+  display: block;
+ }
+
+ .dropdown-content a:hover {
+ background-color: #e3a3eb;
+ color: white;
+ }
+/*end of styling the drodown - نهاية ستايل المنيو*/
+ /**/
+/*sign up form style - ستايل صفحة تسجيل الدخول*/
+/* Full-width input fields */
+ input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f5f4f4;
+ }
+
+/* Add a background color when the inputs get focus */
+ input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+ }
+
+/* Set a style for all buttons */
+ button {
+  background-color: rgb(218, 148, 227);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  float : center;
+ }
+
+button:hover {
+  opacity:1;
+ }
+
+
+/* Float signup button */
+ .signupbtn {
+  float: left;
+  width: 50%;
+ }
+
+/* Add padding to container elements */
+ .container {
+  padding: 16px;
+ }
+
+/* Clear floats */
+ .clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+ }
+
+/*end of sign up form style - نهاية ستايل صفحة تسجيل الدخول*/
+ /**/
+/*style of navbar - ستايل النافقيشن */
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 250px;
+    overflow: hidden;
+    background-color: none;
+    color: black;
+  }
+
+  li {
+  float: left;
+ 
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px 30px;
+    text-decoration: none;
+  }
+
+ li a:hover {
+    background-color: #e3a3eb;
+    color: #fff;
+ }
+/*end of navbar style - نهاية ستايل النافقيشن*/
+ /**/
+/*footer style - ستايل الفوتر "اسفل الصفحة" تحت*/
+  footer {
+    background-color: rgb(100, 93, 123);
+    text-align: center;
+    color: white;
+  }
+/*end of footer style - نهاية ستايل الفوتر*/
+ /**/
+
+/*search element style - ستايل عنصر البحث*/
+
+form.example input[type=text] {
+ padding: 10px;
+ font-size: 17px;
+ border: none;
+ float: left;
+ width: 80%;
+ background: white;
+}
+
+form.example button {
+ float: left;
+ width: 20%;
+ padding: 10px;
+ background: rgb(235, 192, 255);
+ color: white;
+ font-size: 17px;
+ border: none;
+ border-left: none;
+ cursor: pointer;
+}
+
+form.example button:hover {
+ background: #0b7dda;
+}
+
+form.example::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+/* end of search element style - نهاية ستايل عنصر البحث*/
+/**/
+
+/*style longin form - ستايل تسجيل الدخول*/
+/* Full-width input fields */
+input[type="text"], input[type="password"], input[type="email"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: rgb(218, 148, 227);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.close:hover,
+.close:focus {
+  color: grey;
+  cursor: pointer;
+}
+
+/*end of longin form style - نهاية ستايل تسجيل الدخول*/
+/**/
+
+h3 {
+  text-align: center;
+  
+}
+
+#not{
+  color:red;
+  text-decoration: underline;
+  }
+
+
+
+
+  
+  /* Responsive website*/
+    
+  @media screen and (max-width:650px) and (min-width:300px){
+    ul{
+      display: none;
+    }
+    footer {
+      width: 100%;  
+    } 
+    body{
+      position: static;
+      img{
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    video{
+      max-width: 100%;
+      height: auto;
+    }
+    table{
+      position: static;
+    }
+  }
+
+  @media screen and (max-width:300px) and (min-width:100px){
+    ul{
+      display: none;
+    }
+    footer {
+      width: 100%;  
+    } 
+    body{
+      position: static;
+    
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+    video{
+      max-width: 100%;
+      height: auto;
+    }
+    table{
+      position: static;
+    }
+  }
+
+  @media screen and (max-width:100px){
+    ul{
+      display: none;
+    }
+    footer {
+      width: 100%;  
+    } 
+    body{
+      position: static;
+
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+    video{
+      max-width: 100%;
+      height: auto;
+    }
+    table{
+      position: static;
+    }
+  }

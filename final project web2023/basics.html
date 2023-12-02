@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="C:\Users\96653\OneDrive\سطح المكتب\final project web2023\Style.css">
+    <!--menu icon-->  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Responsive Tag : to make it look good on all devices (desktops, tablets, and phones) --> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--search icon--> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Home and Account icons -->    <script src="https://kit.fontawesome.com/ad28a187b4.js" crossorigin="anonymous"></script>                
+                         
+                            
+<img
+src="C:\Users\96653\OneDrive\سطح المكتب\final project web2023\Images\Global-Exception-Handling-in-.NET-6.png"
+alt="A computer with a coding pages and icons" width="100%"; height="300";>
+
+    <h1 style="position: absolute; top: 8px; left: 16px; font-size: 18px; color:aliceblue;"> The Final Project 2023 </h1>
+   <title> Basics </title>
+ <style>
+
+body{
+  text-align: center;
+  position: static;
+}
+ h1,h2{
+    color: rgb(134, 119, 160);
+ }
+
+ </style>
+</head>
+<body>
+  <br><br>
+
+
+
+
+  <div class="dropdown" style="float: left;">
+   <i class="material-icons" style="float: left;">menu</i>
+  <div class="dropdown-content">
+    <a href="index.html" > Home </a>
+        <a href="PS.html" > Programin Solving </a>
+        <a href="java.html" > Java </a>
+        <a href="basics.html" > Basics </a>
+        <a href="oop.html" > OOP </a>
+        <a href="about.html" > About </a>
+        <a href="PrM.html" > Project Members </a>
+        <a href="account.html" > Sign Up </a>
+ </div>
+  </div>
+ 
+ 
+   
+<a href="account.html" i class="fa-solid fa-user" style="float: right; margin: 12px; color: black;"></i></a>
+<a href="index.html" i class="fa-solid fa-house" style="float: right; margin: 12px; color: black;"></i></a>
+    
+  
+  
+  <ul>
+      <li> <a href="index.html" > Home </a></li>
+      <li><a href="PS.html" > Programin Solving </a></li>
+      <li><a href="java.html" > Java </a></li>
+      <li><a href="basics.html" > Basics </a></li>
+      <li><a href="oop.html" > OOP </a></li>
+      <li><a href="about.html" > About </a></li>
+  </ul>
+
+  <br>
+<form class="example" action="#" style="margin:auto;max-width:300px">
+  <input type="text" placeholder="Search.." name="search2">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+<br>
+<hr>
+   <br>
+ <br><br>
+
+<p style="text-align: center;">
+    In this lesson, we will give you a general idea of ​​some basic terms in the Java language,<br>
+    noting that you will learn about each term in detail in subsequent lessons.<br>
+    The basic terms in Java language are the following. </p>
+    <br>
+   <h2 style="text-align: center;"> class </h2>
+   <h2 style="text-align: center;"> object </h2>
+   <h2 style="text-align: center;"> Instance variable </h2>
+   <h2 style="text-align: center;"> methods </h2>
+   
+ <br><br><br>
+ <hr>
+ <br><br>
+
+    <h1 style="text-align: center;">Class concept</h1>
+<p style="text-align: center;">A class is a large container that can contain all the code, including variables, functions, and objects<br></p><br>
+
+<br><br>
+<br><br>
+
+<h1 style="text-align: center;">Object concept</h1>
+<p style="text-align: center;">
+ An object is an exact copy of a specific class.<br>
+ Since an object is an instance of a class, we can say that an object cannot be created if there is no class.<br>
+ So, in the concept of object programming, we create a specific class called blue print, meaning (the raw copy or the original copy),<br>
+ and then we create one or more copies of this class and do what we want with it without changing the contents of the basic class,<br>
+ and thus we have preserved the codes of the basic class because We modify the copy, not directly.<br>
+<br>
+ The basic idea in object programming is that you divide a single program into several classes,<br>
+ and each class is programmed to implement a specific aspect of the program.<br>
+ After completing all the program sections in several classes, we just create copies of them in the place we need them.<br>
+ Thus, we collected all the classes that were written separately and linked them together as if we had written them in only one class.<br>
+</p>
+ <video width="320" height="240" controls>
+    <source src="C:\Users\96653\OneDrive\سطح المكتب\final project web2023\Videos\WhatsApp Video 2023-11-23 at 20.10.06_3d7b60f8.mp4" type="video/mp4">
+    <source src="c:\Users\منيره\OneDrive\سطح المكتب\project web\6. What is an Object in Java_.mp4" type="video/ogg">
+    Your browser does not support the video tag.
+  </video>
+  <br>
+
+  <h2 style="text-align: center;"><mark>Note:</mark></h2>
+<p style="text-align: center;">The object is a copy of the class, not a copy of the file containing the class.
+   <br> Also, the basic class is created without giving values to its variables</p>
+
+   <br><br><br>
+   <hr>
+ <br><br><br>
+   
+    <h1 style="text-align: center;">Instance variables concept</h1> 
+<p style="text-align: center;">
+    Every object we create from a class has its own copy of the variables in that class.<br>
+    The variables of which a copy is given to each class object are what are called properties. <br>
+    <mark>Example:</mark> If we have a class called do0o that contains two variables x and y, <br>
+    and we create two objects from it, the first object is called A and the second is called B.<br>
+<br>
+    Here each object will contain a special copy of the objects in the do0o class.<br>
+    Object A will have its own copy of the variables x and y that object B has nothing to do with.<br>
+    Object B will have its own copy of the variables x and y that object A has nothing to do with.<br>
+<br><br>
+</p>
+
+<br><br><br>
+<hr>
+<br><br>
+
+ <h1 style="text-align: center;">Method in Java</h1>
+<p style="text-align: center;"> general, a method is a way to perform some task.<br>
+      Similarly, the method in Java is a collection of instructions that performs a specific task.<br>
+      It provides the reusability of code. <br> We can also easily modify code using methods.</p>
+  <br>
+  <img src="C:\Users\96653\OneDrive\سطح المكتب\final project web2023\Images\WhatsApp Image 2023-11-23 at 20.10.06_a222da66.jpg" style="width:400px;height:auto;">  
+      <br><br><br>
+
+<h2 style="text-align: center;">What is a method in Java?</h2>
+
+<p style="text-align: center;">
+    A method is a block of code or collection of statements <br>
+    or a set of code grouped together to perform a certain task or operation.<br>
+<br>
+    - It is used to achieve the reusability of code.<br>
+    - We write a method once and use it many times.<br>
+    - We do not require to write code again and again.<br>
+    - It also provides the easy modification and readability of code,<br>
+     just by adding or removing a chunk of code.<br>
+<br>
+    - The method is executed only when we call or invoke it.<br>
+<br>
+   The most important method in Java is the main() method</p>
+<br><br>
+<hr>
+<br><br>
+
+    <h2 style="text-align: center;">short video about Java in method <br></h2>
+    <br>
+    <video width="320" height="240" controls>
+        <source src="C:\Users\96653\OneDrive\سطح المكتب\final project web2023\Videos\WhatsApp Video 2023-11-23 at 20.10.09_17a9f730.mp4" type="video/mp4">
+        <source src="Methods in Java.mp4" type="video/ogg">
+        Your browser does not support the video tag.
+      </video><br>
+
+<br><br>
+
+<br>
+
+      <br>
+      <hr>
+    
+      <footer>
+        <br>
+       <br><br>
+          <a href="C:\Users\96653\OneDrive\سطح المكتب\final project web2023\PrM.html" style="color: #fff;"> Project Members </a>
+       <br><br><br>
+        </footer>
+    
+        
+
+ <script src="C:\Users\96653\OneDrive\سطح المكتب\final project web2023\htmlSupp.js"></script>
+ 
+</body>
+</html>

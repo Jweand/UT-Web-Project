@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+<link rel="stylesheet" href="C:\Users\96653\OneDrive\سطح المكتب\final project web2023\Style.css">
+<!--menu icon-->  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Responsive Tag : to make it look good on all devices (desktops, tablets, and phones) --> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--search icon--> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Home and Account icons -->    <script src="https://kit.fontawesome.com/ad28a187b4.js" crossorigin="anonymous"></script>                
+                                         
+                                    
+                         
+<img
+src="C:\Users\96653\OneDrive\سطح المكتب\final project web2023\Images\Global-Exception-Handling-in-.NET-6.png"
+alt="A computer with a coding pages and icons" width="100%"; height="300";>
+
+                  <h1 style="position: absolute; top: 8px; left: 16px; font-size: 18px; color:aliceblue;"> The Final Project 2023 </h1>
+                 
+<title> Project Members </title>
+  </head> 
+ <style>
+
+body{
+  position: static;
+}
+
+
+  </style>
+ <body>
+    
+
+  <br><br>
+
+
+
+
+  <div class="dropdown">
+   <i class="material-icons">menu</i>
+  <div class="dropdown-content">
+    <a href="index.html" > Home </a>
+        <a href="PS.html" > Programin Solving </a>
+        <a href="java.html" > Java </a>
+        <a href="basics.html" > Basics </a>
+        <a href="oop.html" > OOP </a>
+        <a href="about.html" > About </a>
+        <a href="PrM.html" > Project Members </a>
+        <a href="account.html" > Sign Up </a>
+ </div>
+  </div>
+ 
+ 
+  
+<a href="account.html" i class="fa-solid fa-user" style="float: right; margin: 12px; color: black;"></i></a>
+<a href="index.html" i class="fa-solid fa-house" style="float: right; margin: 12px; color: black;"></i></a>
+  
+  
+  
+  <ul>
+      <li> <a href="index.html" > Home </a></li>
+      <li><a href="PS.html" > Programin Solving </a></li>
+      <li><a href="java.html" > Java </a></li>
+      <li><a href="basics.html" > Basics </a></li>
+      <li><a href="oop.html" > OOP </a></li>
+      <li><a href="about.html" > About </a></li>
+  </ul>
+<br><br>
+  
+<h1 style="text-align: center;"> Project Members </h1>
+<br><br>
+<div style="text-align: center;" id="namesContainer"><ul><li window.onload="displayRandomNames"></li></ul></div>
+
+<br><br>
+
+<p style="text-align: center;"> 
+<br>
+<b> Final Project 2023 </b><br>
+"CIT 230" - class (668)<br>
+Dr. Nisreen Altimani<br>
+<br>
+</p>
+
+<br><br><br>
+
+<h3 style="text-align: center;"> Thank You! </h3>
+     
+<br>
+ <hr>
+
+ <footer> <br><br><br>
+  <form class="example" action="#" style="margin:auto;max-width:300px">
+    <input type="text" placeholder="Search.." name="search2">
+    <button type="submit"><i class="fa fa-search"></i></button>
+  </form>
+<br><br>
+  <h1 style="color: aliceblue;"> CONTACT US </h1>
+  <h4><i class="fa-solid fa-phone"> +966 0537382471 </i></h4>
+  <h4><i class="fa-solid fa-envelope"> tryon3sa@gmail.com </i></h4>
+
+<br><br><br>
+</footer>
+
+<script>
+  const names = ["Wejdan Ateyah Al Salem 431001860", "Munirah falah albalawi 431004044", "Mayson Thani Albalawi 431004770"];
+
+  function getRandomName() {
+    const randomIndex = Math.floor(Math.random() * names.length);
+    return names[randomIndex];
+  }
+  
+  function displayRandomNames() {
+    const namesContainer = document.getElementById("namesContainer");
+    namesContainer.innerHTML = "";
+  
+    for (let i = 0; i < 3; i++) {
+      const name = getRandomName();
+      const nameElement = document.createElement("p");
+      nameElement.textContent = name;
+      namesContainer.appendChild(nameElement);
+    }
+  }
+  
+  displayRandomNames();
+</script>
+
+
+
+<script src="C:\Users\96653\OneDrive\سطح المكتب\final project web2023\htmlSupp.js"></script>
+ 
+</body>
+</html>
